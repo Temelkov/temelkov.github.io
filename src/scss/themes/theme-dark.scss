@@ -11,7 +11,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: white;
       opacity: 0.8;
    }
 
@@ -32,6 +32,10 @@ body[data-theme="dark"] {
       color: white;
    }
 
+   .location {
+      color: white;
+   }
+
    header {
       background-color: #494949;
 
@@ -49,6 +53,10 @@ body[data-theme="dark"] {
 
       .polaroid span {
          background: #6d6d6d;
+      }
+
+      .currentPosition {
+         color: white;
       }
 
       .card {

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import csharpIcon from "@iconify/icons-logos/c-sharp";
-import dotnetIcon from "@iconify/icons-logos/dotnet";
-import ubuntuIcon from "@iconify/icons-logos/ubuntu";
 
 class About extends Component {
   render() {
@@ -26,22 +23,11 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="300px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={csharpIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={dotnetIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={ubuntuIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <h5 className="currentPosition mt-5">.NET Full-Stack developer at Amexis OOD</h5>
                 </span>
               </div>
             </div>

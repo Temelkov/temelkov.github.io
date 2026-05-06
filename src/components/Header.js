@@ -47,8 +47,8 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <h4><a>Veliko Tarnovo · Bulgaria, (+359) 988 716 362 · <a href="mailto:stanislav.temelkov@hotmail.com">stanislav.temelkov@hotmail.com</a></a></h4>
-              {/* <Switch
+              <h4 className="location"><a>Veliko Tarnovo · Bulgaria, (+359) 988 716 362 · <a href="mailto:stanislav.temelkov@hotmail.com">stanislav.temelkov@hotmail.com</a></a></h4>
+              { <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
@@ -87,7 +87,7 @@ class Header extends Component {
                   ></span>
                 }
                 id="icon-switch"
-              /> */}
+              /> }
             </div>
           </div>
         </div>

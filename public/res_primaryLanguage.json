@@ -445,6 +445,38 @@
         "Public Transport Varna",
         "BDZ Ticket System"
       ]
+    },
+    {
+      "company": "AMEXIS OOD",
+      "title": "Full Stack Software Engineer",
+      "years": "08.2022 - PRESENT",
+      "mainTech": [
+        ".NET", "ANGULAR", "SQL", "AZURE"
+      ],
+      "technologies": [
+        "C#",
+        ".NET Framework",
+        "PostgreSQL",
+        "Angular",
+        "Entity Framework",
+        "Problem Solving",
+        "GitHub",
+        "Data Structure",
+        "Angular Material",
+        "Unit Testing",
+        "Javascript",
+        "SASS",
+        "Microsoft SQL Server",
+        "Design Patterns",
+        "HTML5",
+        "CSS3",
+        "Algorithms",
+        "Azure",
+        "Web APIs",
+        "Scrum",
+        "Jira",
+        "BitBucket"
+      ]
     }
   ],
   "contact": {

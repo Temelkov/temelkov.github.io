@@ -1,20 +1,14 @@
 <h3>:books: Getting started</h3>
 
 1. Clone or fork project.
-2. Install required dependencies with `npm install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot. 
+2. The live portfolio is built from the **`web/`** folder (Vite + React):  
+   `cd web && npm install && npm run dev`
+3. To publish to GitHub Pages (copies `web/dist` to repo root):  
+   `cd web && npm run deploy`  
+   then commit and push **`main`** on **`Temelkov/temelkov.github.io`** (or `git push upstream main` from this clone).
 
 ```
-// package.json
-{
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://temelkov.github.io/TEMELKOV.IS-A.DEV",   <-- remove/edit this
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  ...
-}
+// Legacy CRA root (optional): remove "homepage" from package.json or set to "."
 ```
 
-4. `npm start` project and customize it.
-5. Deploy on github-pages using `npm run deploy` command.
+This site is open source. Improve this page.
